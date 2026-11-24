@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_volume_panel"
+    android:clickable="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <!-- Plus / Volume Up Button -->
+    <ImageButton
+        android:id="@+id/btnVolumeUp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_circle_button"
+        android:contentDescription="@string/cd_volume_up"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_plus" />
+
+    <!-- Speaker Handle (Center) -->
+    <FrameLayout
+        android:id="@+id/handleContainer"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/bg_circle_button"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/imgHandleIcon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/cd_handle"
+            android:src="@drawable/ic_volume_handle" />
+    </FrameLayout>
+
+    <!-- Minus / Volume Down Button -->
+    <ImageButton
+        android:id="@+id/btnVolumeDown"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_circle_button"
+        android:contentDescription="@string/cd_volume_down"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_minus" />
+
+</LinearLayout>

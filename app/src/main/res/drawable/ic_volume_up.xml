@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/overlay_icon_tint"
+        android:pathData="M3,9v6h4l5,5V4L7,9H3zm13.5,3c0,-1.77 -1.02,-3.29 -2.5,-4.03v8.05c1.48,-0.73 2.5,-2.25 2.5,-4.02zM14,3.23v2.06c2.89,0.86 5,3.54 5,6.71s-2.11,5.85 -5,6.71v2.06c4.01,-0.91 7,-4.49 7,-8.77s-2.99,-7.86 -7,-8.77z"/>
+    <path
+        android:fillColor="@color/overlay_icon_tint"
+        android:pathData="M18.5,8.5l-1.41,-1.41L15.67,8.5 14.26,7.09 12.85,8.5l2.82,2.83z"
+        android:visibility="invisible"/>
+    <!-- Simple plus icon on right side if desired or volume up arrow -->
+    <path
+        android:fillColor="@color/overlay_icon_tint"
+        android:pathData="M7,14l5,-5 5,5z"/>
+</vector>
+

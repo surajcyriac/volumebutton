@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Floating Volume</string>
+    <string name="overlay_service_name">Floating Volume Service</string>
+    <string name="notification_channel_name">Floating Volume Status</string>
+    <string name="notification_channel_desc">Shows background status and quick controls for Floating Volume</string>
+    <string name="notification_title">Floating Volume is Active</string>
+    <string name="notification_content">Tap to open settings or tap Stop below</string>
+    <string name="notification_stop_action">Stop</string>
+
+    <string name="title_welcome">Floating Volume Button</string>
+    <string name="desc_welcome">A lightweight, draggable volume button that stays on your screen edge over any app.</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_desc">To draw the floating button over other apps, Android requires the \"Display over other apps\" permission.</string>
+    <string name="btn_grant_permission">Grant Overlay Permission</string>
+    <string name="permission_granted_badge">✓ Overlay Permission Granted</string>
+    <string name="service_running_status">Service Status: Running</string>
+    <string name="service_stopped_status">Service Status: Stopped</string>
+    <string name="btn_start_service">Start Floating Button</string>
+    <string name="btn_stop_service">Stop Floating Button</string>
+    <string name="battery_tip_title">Background Battery Tips</string>
+    <string name="battery_tip_desc">If your device vendor (Samsung, Xiaomi, OnePlus, etc.) aggressively closes background apps, disable battery optimization for Floating Volume in Settings.</string>
+    <string name="btn_battery_settings">Open Battery Optimization Settings</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">Preferences</string>
+    <string name="setting_start_on_boot">Start on Boot</string>
+    <string name="setting_start_on_boot_desc">Automatically launch floating button after phone restarts</string>
+    <string name="setting_idle_opacity">Idle Opacity</string>
+    <string name="setting_auto_collapse">Auto-Collapse Delay</string>
+    <string name="setting_show_volume_popup">Show System Volume Slider</string>
+    <string name="setting_show_volume_popup_desc">Show native on-screen volume slider popup</string>
+    <string name="setting_haptics">Haptic Feedback</string>
+    <string name="setting_haptics_desc">Vibrate lightly when pressing volume buttons</string>
+
+    <string name="cd_handle">Volume Handle</string>
+    <string name="cd_volume_up">Volume Up</string>
+    <string name="cd_volume_down">Volume Down</string>
+</resources>
+

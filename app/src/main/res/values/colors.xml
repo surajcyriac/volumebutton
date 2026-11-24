@@ -1,0 +1,21 @@
+<resources>
+    <color name="primary">#1E88E5</color>
+    <color name="primary_variant">#1565C0</color>
+    <color name="secondary">#26A69A</color>
+    <color name="background">#0F172A</color>
+    <color name="surface">#1E293B</color>
+    <color name="surface_variant">#334155</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_surface">#F8FAFC</color>
+    <color name="on_surface_muted">#94A3B8</color>
+    <color name="success">#10B981</color>
+    <color name="danger">#EF4444</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_handle_bg">#D91E293B</color>
+    <color name="overlay_handle_border">#4DFFFFFF</color>
+    <color name="overlay_panel_bg">#E60F172A</color>
+    <color name="overlay_icon_tint">#F8FAFC</color>
+    <color name="overlay_btn_ripple">#33FFFFFF</color>
+</resources>
+
